@@ -65,11 +65,23 @@ var object = [
 
     },
     {
-        "headline":"JavaScript (5/10)",
-        "value":5,
+        "headline":"JavaScript (7/10)",
+        "value":7,
         "length":10,
         "description": "My first experience with a programming language. Still need to improve but I\'m having a lot of fun with it!."
 
+    },
+    {
+        "headline": "Java (5/10)",
+        "value": 5,
+        "length": 10,
+        "description": "I've learnt Java as an introductory language to Object-Oriented Programming at the University of Zurich in my first semester. I am already very familiar with its basic key concepts."
+    },
+    {
+        "headline": "C (4/10)",
+        "value": 4,
+        "length": 10,
+        "description": "I was introduced to the C programmming language in the course Algorithms and Data Structures at UZH. The course mostly focuses on manipulating and searching given data structures using C."
     },
     {
         "headline": "Python (2/10)",
@@ -77,7 +89,6 @@ var object = [
         "length": 10,
         "description": "Just started out with Python. Don't really know a lot about it yet except how the syntax looks like."
     }
-
 ]
 
 $(document).ready(function(){
@@ -172,6 +183,13 @@ education.display();
 var work = {
     "jobs": [
         {
+          "employer": "Udacity Inc.",
+          "title":  "Front-End Nanodegree Code Reviewer",
+          "dates": "July 2015 - Present",
+          "location": "Schwerzenbach",
+          "description": "I am one of the very first Udacity Code Reviewers, where I review student project submissions. For each submission, I do both a thorough code review and project evaluation. I strive to give actionable and helpful feedback to students while also improving my code reviewing skills at the same time."
+        },
+        {
             "employer": "Teleperformance",
             "title": "Client Representative",
             "dates": "November 2014 - Future",
@@ -183,7 +201,7 @@ var work = {
             "title": "Sales Assistant",
             "dates": "December 2013",
             "location": "Zurich, Switzerland",
-            "description": "Answering Customer\'s questions about all kinds of electronic goodies."
+            "description": "My first job after high school graduation. I had to help customer\'s who had questions or wanted to buy all kinds of electronic goodies."
         }
     ]
 }
@@ -208,6 +226,25 @@ work.display();
 // Projects Section
 var projects = {
     "projects": [
+        {
+          "title": "Mataram Tour & Travel, Travel Business Website",
+          "dates": "January - February 2016",
+          "description": "A Simple Website I made for my friends travel business in Indonesia. It was my first \"real\" Website project and was very challenging and fun to plan and implement everything on my own. Find the website here: <a href=\"https://mataramtours.co.id/en/\">Mataram Tour & Travel</a>",
+          "images": ["images/mataram-tours.png"]
+        },
+        {
+          "title": "Health Tracker Web App",
+          "dates": "2015",
+          "description": "A Single Page Web-App which lets you search for food items querying the Nutritionix API. Results can be added to a list which lets you then see your total calorie consumption of all the items added together. Find the project here: <a href=\"http://weissdev.github.io/health-tracker\">Health Tracker Project Site</a><a href=\"https://github.com/WeissDev/health-tracker\">Health Tracker Repo</a>",
+          "images": ["images/health-tracker.png"]
+        },
+        {
+          "title": "Arcade Game Clone",
+          "dates": "2015",
+          "description": "As an introduction to Object-Oriented Programming in JavaScript. I had to program a clone of the classic arcade game Frogger.",
+          "images": ["images/arcade-game-clone.png"],
+          "url": "http://weissdev.github.io/frontend-nanodegree-arcade-game-P3/"
+        },
         {
             "title": "Flickr Photo Search",
             "dates": "2015",
