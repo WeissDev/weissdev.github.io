@@ -9,12 +9,11 @@ var bio = {
     },
     "welcomeMessage": "Hi, I'm Valentin. Nice to meet you!",
     "skills": [
-        "HTML",
-        "CSS",
-        "JavaScript",
+        "HTML, CSS & JavaScript",
+        "Java",
+        "C",
         "self-motivated learning",
-        "writing awesome code",
-        "sleep"
+        "languages"
     ],
     "bioPic": "images/biopic.jpg"
 }
@@ -108,8 +107,8 @@ var education = {
     "schools": [
         {
             "name": "University of Zurich",
-            "degree": "Pursuing Bachelor Degree in Computer Science",
-            "dates": "Starting September 2015 - future",
+            "degree": "Bsc. in Computer Science",
+            "dates": "September 2015 - future",
             "location": "Zurich, Switzerland",
             "major": "Software Systems"
         },
@@ -125,19 +124,19 @@ var education = {
         {
             "school": "Udacity Inc.",
             "title": "Front-End Web Development Nanodegree",
-            "dates": "January 2015 - Future",
+            "dates": "January 2015 - July 2015",
             "url": "udacity.com"
         },
         {
             "school": "Treehouse Island Inc.",
             "title": "Front-End Web Development Track",
-            "dates": "January 2015 - Future",
+            "dates": "2015",
             "url": "teamtreehouse.com"
         },
         {
             "school": "Treehouse Island Inc.",
             "title": "Web Design Track",
-            "dates": "December 2014 - Future",
+            "dates": "2014",
             "url": "teamtreehouse.com"
         }
     ]
@@ -186,15 +185,15 @@ var work = {
           "employer": "Udacity Inc.",
           "title":  "Front-End Nanodegree Code Reviewer",
           "dates": "July 2015 - Present",
-          "location": "Schwerzenbach",
+          "location": "Zurich, Switzerland (Home Office)",
           "description": "I am one of the very first Udacity Code Reviewers, where I review student project submissions. For each submission, I do both a thorough code review and project evaluation. I strive to give actionable and helpful feedback to students while also improving my code reviewing skills at the same time."
         },
         {
-            "employer": "Teleperformance",
+            "employer": "Teleperformance SCMG AG",
             "title": "Client Representative",
-            "dates": "November 2014 - Future",
+            "dates": "November 2014 - July 2015",
             "location": "Wallisellen, Switzerland",
-            "description": "Currently, I am working in this Customer Service position for a variety of client companies. This position requires basic knowledge in German, French, Italian and English since I get to deal with people from all over Switzerland."
+            "description": "I used to work in this Customer Service position for a variety of client companies. This position required fluent knowledge in German, French, Italian and English since I got to deal with people from all over Switzerland."
         },
         {
             "employer": "Interdiscount",
@@ -228,35 +227,27 @@ var projects = {
     "projects": [
         {
           "title": "Mataram Tour & Travel, Travel Business Website",
-          "dates": "January - February 2016",
-          "description": "A Simple Website I made for my friends travel business in Indonesia. It was my first \"real\" Website project and was very challenging and fun to plan and implement everything on my own. Find the website here: <a href=\"https://mataramtours.co.id/en/\">Mataram Tour & Travel</a>",
-          "images": ["images/mataram-tours.png"]
+          "dates": "2016",
+          "description": "A Simple Website I made for my friends travel business in Indonesia. It was my first \"real\" Website project and was very challenging and fun to plan and implement everything on my own. Find the website here: <a href=\"https://mataramtours.co.id/en/\">Mataram Tour & Travel Website</a>",
+          "images": ["images/mataram-tours.png", "images/mataram-tours2.png"]
         },
         {
           "title": "Health Tracker Web App",
           "dates": "2015",
-          "description": "A Single Page Web-App which lets you search for food items querying the Nutritionix API. Results can be added to a list which lets you then see your total calorie consumption of all the items added together. Find the project here: <a href=\"http://weissdev.github.io/health-tracker\">Health Tracker Project Site</a><a href=\"https://github.com/WeissDev/health-tracker\">Health Tracker Repo</a>",
+          "description": "A Single Page Web-App which lets you search for food items querying the Nutritionix API. Results can be added to a list which lets you then see your total calorie consumption of all the items added together. Find the project here: <a href=\"http://weissdev.github.io/health-tracker\">Health Tracker Project Site</a><a href=\"https://github.com/WeissDev/health-tracker\">Health Tracker Github Repo</a>",
           "images": ["images/health-tracker.png"]
+        },
+        {
+          "title": "Zurich Neighborhood Map",
+          "dates": "2015",
+          "description": "A interactive Neighborhood Map which uses the Google Maps, OpenWeatherMap and Wikimedia API showing information about a few notable places in Zurich. Since it was my first time working with external data API\'s, the app\'s overall look and design still needs some improvement. Find the project here: <a href=\"http://weissdev.github.io/neighborhood-map-p5/\">Neighborhood Map Project Site</a><a href=\"<a href=\"http://weissdev.github.io/neighborhood-map-p5/\">Neighborhood Map Github Repo</a>",
+          "images": ["images/neighborhood-map.png"]
         },
         {
           "title": "Arcade Game Clone",
           "dates": "2015",
-          "description": "As an introduction to Object-Oriented Programming in JavaScript. I had to program a clone of the classic arcade game Frogger.",
-          "images": ["images/arcade-game-clone.png"],
-          "url": "http://weissdev.github.io/frontend-nanodegree-arcade-game-P3/"
-        },
-        {
-            "title": "Flickr Photo Search",
-            "dates": "2015",
-            "description": "My first project using AJAX at Treehouse! It is a simple web app which lets you search the photo-sharing service Flickr for pictures.",
-            "images": ["images/flickrajax.jpg",
-                        "images/flickrajaxcode.jpg"]
-        },
-        {
-            "title": "Make a Website Project",
-            "dates": "2014",
-            "description": "An introduction to Web Development. Fundamentals of HTML and CSS",
-            "images": ["images/makeawebsite.png"]
+          "description": "As my first deep dive into Object-Oriented Programming in JavaScript, I programmed a clone of the classic arcade game Frogger at Udacity. Find the game here: <a href=\"http://weissdev.github.io/frontend-nanodegree-arcade-game-P3/\">Arcade Game Clone Site<a href=\"https://github.com/WeissDev/frontend-nanodegree-arcade-game-P3\">Arcade Game Clone Github Repo</a>",
+          "images": ["images/arcade-game-clone.png"]
         }
     ]
 }
