@@ -182,6 +182,13 @@ education.display();
 var work = {
     "jobs": [
         {
+            "employer": "GroupConsulter AG",
+            "title":  "Software Developer Symfony 2",
+            "dates": "June 2016 - Present",
+            "location": "Berikon, Switzerland",
+            "description": "Developing and maintaining the in-house solution for company events."
+        },
+        {
           "employer": "Udacity Inc.",
           "title":  "Front-End Nanodegree Code Reviewer",
           "dates": "July 2015 - Present",
@@ -240,7 +247,7 @@ var projects = {
         {
           "title": "Zurich Neighborhood Map",
           "dates": "2015",
-          "description": "A interactive Neighborhood Map which uses the Google Maps, OpenWeatherMap and Wikimedia API showing information about a few notable places in Zurich. Since it was my first time working with external data API\'s, the app\'s overall look and design still needs some improvement. Find the project here: <a href=\"http://weissdev.github.io/neighborhood-map-p5/\">Neighborhood Map Project Site</a><a href=\"<a href=\"http://weissdev.github.io/neighborhood-map-p5/\">Neighborhood Map Github Repo</a>",
+          "description": "An interactive Neighborhood Map which uses the Google Maps, OpenWeatherMap and Wikimedia API showing information about a few notable places in Zurich. Since it was my first time working with external data API\'s, the app\'s overall look and design still needs some improvement. Find the project here: <a href=\"http://weissdev.github.io/neighborhood-map-p5/\">Neighborhood Map Project Site</a><a href=\"<a href=\"http://weissdev.github.io/neighborhood-map-p5/\">Neighborhood Map Github Repo</a>",
           "images": ["images/neighborhood-map.png"]
         },
         {
