@@ -2,7 +2,7 @@ import {Job} from "./job";
 
 export const JOBS: Job[] = [
   {
-    title: 'Software Developer',
+    title: 'Web Developer Symfony 2',
     description: 'Developing and maintaining the in-house solution for events',
     company: 'GroupConsulter AG',
     location: 'Berikon, Switzerland',

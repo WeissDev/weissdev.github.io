@@ -1,0 +1,26 @@
+#jobs {
+  max-width: 500px;
+}
+
+.job {
+  margin: 5px 0;
+}
+
+.title {
+  display: inline;
+}
+
+.company,
+.time,
+.location {
+  font-style: italic;
+}
+
+.time {
+  display: block;
+}
+
+.location {
+  color: #777777;
+  float: right;
+}
