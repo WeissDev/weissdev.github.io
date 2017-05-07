@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { WorkComponent } from './work/work.component';
+import { HeadComponent } from './head/head.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WorkComponent
+    WorkComponent,
+    HeadComponent
   ],
   imports: [
     BrowserModule,
