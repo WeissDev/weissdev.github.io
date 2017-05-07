@@ -182,6 +182,13 @@ education.display();
 var work = {
     "jobs": [
         {
+            "employer": "GroupConsulter AG",
+            "title":  "Software Developer Symfony 2",
+            "dates": "June 2016 - Present",
+            "location": "Berikon, Switzerland",
+            "description": "Developing and maintaining the in-house solution for company events."
+        },
+        {
           "employer": "Udacity Inc.",
           "title":  "Front-End Nanodegree Code Reviewer",
           "dates": "July 2015 - Present",
