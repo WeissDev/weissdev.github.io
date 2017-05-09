@@ -28,6 +28,19 @@ export class ResumeService {
   }
 
   /**
+   * Returns a skill object
+   * @param name
+   * @returns {Promise<Skill>}
+   */
+  getSkillByName(name): Promise<Skill> {
+    let skill = SKILLS.filter(function(obj) {
+      return obj.name === name;
+    });
+
+    return Promise.resolve(skill[0]);
+  }
+
+  /**
    * Get all projects from project-data.ts
    * @returns {Promise<Project[]>}
    */

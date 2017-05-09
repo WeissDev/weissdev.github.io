@@ -72,5 +72,17 @@ export const SKILLS: Skill[] = [
     imgPath: '/assets/images/icons/mysql.svg',
     category: 'db',
     percent: 70
+  },
+  {
+    name: 'Spring',
+    imgPath: '/assets/images/icons/spring.svg',
+    category: 'java',
+    percent: 50
+  },
+  {
+    name: 'Backbone.js',
+    imgPath: '/assets/images/icons/backbone-icon.svg',
+    category: 'js',
+    percent: 60
   }
 ];

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Project} from "../models/project";
 import {ResumeService} from "../services/resume.service";
+import {Skill} from "../models/skill";
 
 @Component({
   selector: 'app-project',
