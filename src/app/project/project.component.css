@@ -22,6 +22,7 @@
 }
 
 .left {
+  margin-left: 5px;
 }
 
 .year {
@@ -30,7 +31,7 @@
 
 .right {
   margin-left: auto;
-  margin-right: 0;
+  margin-right: 5px;
 }
 
 .technologies {
