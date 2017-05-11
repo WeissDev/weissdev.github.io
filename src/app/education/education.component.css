@@ -1,0 +1,23 @@
+#education {
+  max-width: 500px;
+}
+
+.name {
+  display: inline;
+}
+
+.time,
+.degree,
+.major {
+  display: block;
+}
+
+.time,
+.location {
+  font-style: italic;
+}
+
+.location {
+  color: #777777;
+  float: right;
+}

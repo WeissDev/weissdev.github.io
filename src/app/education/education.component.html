@@ -1,3 +1,26 @@
-<p>
-  education works!
-</p>
+<div id="education" class="center">
+  <h2 class="text-center">Education <i class="fa fa-graduation-cap" aria-hidden="true"></i></h2>
+
+  <div id="schools">
+    <div class="school" *ngFor="let school of education">
+      <ng-container *ngIf="school.type === 'normal'">
+        <h3 class="name">{{school.school}}</h3>
+        <span class="location">{{school.location}}</span>
+        <span class="time">{{school.time}}</span>
+        <span class="degree">{{school.degree}}</span>
+        <span class="major">{{school.major}}</span>
+      </ng-container>
+    </div>
+
+    <h3 class="text-center">Online Classes</h3>
+    <div class="school" *ngFor="let school of education">
+      <ng-container *ngIf="school.type === 'online'">
+        <h3 class="name">{{school.school}}</h3>
+        <span class="location">{{school.location}}</span>
+        <span class="time">{{school.time}}</span>
+        <span class="degree">{{school.degree}}</span>
+        <span class="major">{{school.major}}</span>
+      </ng-container>
+    </div>
+  </div>
+</div>

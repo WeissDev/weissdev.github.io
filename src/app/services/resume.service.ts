@@ -5,6 +5,8 @@ import {Skill} from "../models/skill";
 import {SKILLS} from "../models/skill-data";
 import {Project} from "../models/project";
 import {PROJECTS} from "../models/project-data";
+import {Education} from "../models/education";
+import {EDUCATION} from "../models/education-data";
 
 @Injectable()
 export class ResumeService {
@@ -46,6 +48,14 @@ export class ResumeService {
    */
   getProjects(): Promise<Project[]> {
     return Promise.resolve(PROJECTS);
+  }
+
+  /**
+   * Get all education entries from education-data.ts
+   * @returns {Promise<Education[]>}
+   */
+  getEducation(): Promise<Education[]> {
+    return Promise.resolve(EDUCATION);
   }
 
 }

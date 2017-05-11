@@ -1,5 +1,5 @@
 <div id="projects" class="row center">
-  <h2 class="text-center">Projects</h2>
+  <h2 class="text-center">Projects <i class="fa fa-code" aria-hidden="true"></i></h2>
     <div class="project" *ngFor="let project of projects; let i = index" [ngClass]="i % 2 === 0 ? 'left' : 'right'">
       <h3 class="title">{{project.title}}</h3>
       <span class="year">{{project.year}}</span>
