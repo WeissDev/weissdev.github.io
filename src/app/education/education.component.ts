@@ -9,7 +9,7 @@ import {Education} from "../models/education";
   providers: [ResumeService]
 })
 export class EducationComponent implements OnInit {
-  protected education: Education[];
+  education: Education[];
 
   constructor(private resumeService: ResumeService) { }
 

@@ -9,7 +9,7 @@ import {ResumeService} from "../services/resume.service";
   providers: [ResumeService]
 })
 export class WorkComponent implements OnInit {
-  protected jobs: Job[];
+  jobs: Job[];
 
   constructor(private resumeService: ResumeService) { }
 

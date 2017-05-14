@@ -22,7 +22,7 @@ import {animate, style, transition, trigger} from "@angular/animations";
 })
 export class SkillComponent implements OnInit {
   @Input('skill') skill: Skill;
-  private overlay: boolean;
+  overlay: boolean;
 
   constructor() { }
 

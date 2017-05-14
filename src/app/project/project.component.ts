@@ -10,7 +10,7 @@ import {Skill} from "../models/skill";
   providers: [ResumeService]
 })
 export class ProjectComponent implements OnInit {
-  protected projects: Project[];
+  projects: Project[];
 
   constructor(private resumeService: ResumeService) { }
 

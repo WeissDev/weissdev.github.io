@@ -8,7 +8,7 @@ import {Skill} from "../models/skill";
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent implements OnInit {
-  protected skills: Skill[];
+  skills: Skill[];
 
   constructor(private resumeService: ResumeService) { }
 
