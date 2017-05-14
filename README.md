@@ -1,26 +1,28 @@
-This is my resume for Udacity's Front-End Developer Nanodegree.
+# Weissdev.Github.Io
 
-This Resume is built using the following files:
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
--index.html
-The main page which structures this resume.
+## Development server
 
--style.css
-The stylesheet for this resume which I slightly altered to make it look more personalized.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
--resumeBuilder.js
-This file holds all the data which you can see in my resume. It's a collection of all my resume data in JSON format.
+## Code scaffolding
 
--helper.js
-A JavaScript file provided by Udacity which helped me to get started on this project.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
--jQuery.js
-The jQuery library.
+## Build
 
--skillset.js
-An additional file which I included to make my resume look more like my own. It holds all the JavaScript used for the Section "How I'd Guesstimate my Programming Skills" in the resume.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
--skillset.css
-The stylesheet for the Skillset section.
+## Running unit tests
 
-You can look at my resume at : http://weissdev.github.io
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

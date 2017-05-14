@@ -1,0 +1,51 @@
+#projects {
+  max-width: 800px;
+}
+
+.project {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+  margin: 15px 0;
+  max-width: 600px;
+  padding: 5px;
+}
+
+.image {
+  max-width: 300px;
+}
+
+.image img {
+  width: 100%;
+}
+
+.title {
+  display: inline;
+}
+
+.left {
+  margin-left: 5px;
+}
+
+.year {
+  font-style: italic;
+}
+
+.right {
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.technologies {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.skill {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.skill img {
+  width: 100%;
+}
