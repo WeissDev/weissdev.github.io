@@ -3,22 +3,11 @@
   max-width: 800px;
 }
 
+#skill-wrapper h2 {
+  padding-top: 15px;
+}
+
 #skills {
-  width: 100%;
-}
-
-.category {
-  display: flex;
-  justify-content: center;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.skill {
-  width: 50px;
-  margin: 20px;
-}
-
-.skill img {
-  width: 100%;
+  max-width: 620px;
+  height: 200px;
 }

@@ -1,37 +1,18 @@
-.skill {
-  width: 60px;
-  height: 80px;
-  margin: 10px;
-  position: relative;
+.c100  {
+
 }
 
-.skill img {
-  position: absolute;
-  width: 100%;
-  margin: auto;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.c100 img {
+  width: 50%;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
 
-.overlay {
-  background-color: #333333;
-  color: #fff;
+.percent {
+  display: none;
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.6;
-  width: 100%;
-  height: 100%;
 }
 
-.overlay span {
-  position: absolute;
-  margin: auto;
-  top: 20px;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.percent:hover {
+  display: inline;
 }

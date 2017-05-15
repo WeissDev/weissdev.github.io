@@ -25,15 +25,22 @@
 #contact {
   display: block;
   font-size: 1.2em;
-  /*display: flex;*/
   list-style-type: none;
-  /*justify-content: space-between;*/
   padding-left: 0;
   margin: auto;
 }
 
 #contact li {
   margin: 10px 0;
+}
+
+#contact li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#contact li a:hover {
+  color: #e8e8e6;
 }
 
 #skill-wrapper {

@@ -4,9 +4,9 @@
       <h3 class="title">{{project.title}}</h3>
       <span class="year">{{project.year}}</span>
 
-      <div>
-        <a href="{{project.url}}" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> View the page</a>
-        <a *ngIf="project.gitHubRepoUrl.length > 0" href="{{project.gitHubRepoUrl}}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <div class="links center">
+        <a *ngIf="project.url.length > 0" href="{{project.url}}" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i> View the page</a>
+        <a *ngIf="project.gitHubRepoUrl.length > 0" href="{{project.gitHubRepoUrl}}" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> Repo</a>
       </div>
 
       <p>{{project.description}}</p>

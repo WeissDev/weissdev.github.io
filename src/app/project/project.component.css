@@ -49,3 +49,17 @@
 .skill img {
   width: 100%;
 }
+
+.links {
+  display: inline;
+  float: right;
+  width: 200px;
+  margin-top: 5px;
+}
+
+.links a {
+  font-size: 1.1em;
+  float: right;
+  text-decoration: none;
+  padding: 5px;
+}

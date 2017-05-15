@@ -2,30 +2,7 @@
 
   <h2 class="text-center">Skills at a glance</h2>
 
-  <div id="skills">
-    <div class="category">
-      <ng-container *ngFor="let skill of skills">
-        <head-skill *ngIf="skill.percent > 79" [skill]="skill"></head-skill>
-      </ng-container>
-    </div>
-
-    <div class="category">
-      <ng-container *ngFor="let skill of skills">
-        <head-skill *ngIf="skill.percent > 59 && skill.percent < 79" [skill]="skill"></head-skill>
-      </ng-container>
-    </div>
-
-    <div class="category">
-      <ng-container *ngFor="let skill of skills">
-        <head-skill *ngIf="skill.percent > 39 && skill.percent < 59" [skill]="skill"></head-skill>
-      </ng-container>
-    </div>
-
-    <div class="category">
-      <ng-container *ngFor="let skill of skills">
-        <head-skill *ngIf="skill.percent < 39" [skill]="skill"></head-skill>
-      </ng-container>
-    </div>
-
+  <div id="skills" class="center">
+      <head-skill *ngFor="let skill of skills" [skill]="skill"></head-skill>
   </div>
 </div>

@@ -1,6 +1,6 @@
 #education {
   max-width: 500px;
-  margin: 15px;
+  margin-top: 15px;
   padding: 10px;
 }
 
@@ -8,10 +8,20 @@
   display: inline;
 }
 
+.school {
+  margin: 15px 0;
+}
+
 .time,
 .degree,
 .major {
   display: block;
+}
+
+.degree {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 0.9em;
 }
 
 .time,

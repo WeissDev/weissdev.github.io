@@ -3,8 +3,9 @@ md-tab-group {
 }
 
 #container {
-  max-width: 1000px;
+  max-width: 800px;
 }
+
 
 #name-wrapper {
   padding: 15px;
@@ -28,6 +29,39 @@ md-tab-group {
 
 #contact li {
   margin: 10px 0;
+}
+
+footer {
+  color: #ffffff !important;
+}
+
+footer h3 {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+}
+
+#contact-details {
+  display: block; text-align:center;
+  list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+#contact-details li {
+  font-size: 1.2em;
+  display: inline;
+  margin: 15px;
+}
+
+#contact-details li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#contact-details li a:hover {
+  color: #e8e8e6;
 }
 
 @media screen and (max-width: 990px){

@@ -1,15 +1,20 @@
 #work {
-  margin: 15px;
   padding: 10px;
+  margin-top: 15px;
   max-width: 571px;
 }
+
 
 #jobs {
   max-width: 500px;
 }
 
 .job {
-  margin: 5px 0;
+  margin: 40px 0;
+}
+
+.job p {
+  margin-top: 2px;
 }
 
 .title {
