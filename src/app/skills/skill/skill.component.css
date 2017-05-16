@@ -14,11 +14,28 @@
   filter: alpha(opacity=100);
 }
 
+.name,
 .percent {
-  display: none;
-  position: absolute;
+  display: block;
+  font-size: 12px;
+  vertical-align: middle;
 }
 
-.percent:hover {
-  display: inline;
+.name {
+  margin-top: 18px;
+}
+
+.overlay {
+  background-color: #333333;
+  color: #ffffff;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  z-index: 50;
+  margin: 0 5px;
+  border-radius: 100%;
+  text-align: center;
+  opacity: 0.8;
 }

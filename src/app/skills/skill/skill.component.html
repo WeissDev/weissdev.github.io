@@ -1,7 +1,11 @@
-<div class="c100 small p{{skill.percent}}">
+<div class="c100 small p{{skill.percent}}" (mouseenter)="showOverlay(true)" (mouseleave)="showOverlay(false)">
   <span>
     <img src="{{skill.imgPath}}" alt="{{skill.name}}">
   </span>
+  <div class="overlay" *ngIf="overlay" [@onHover]="overlay">
+    <span class="name">{{skill.name}}</span>
+    <span class="percent">{{skill.percent}} %</span>
+  </div>
   <div class="slice">
     <div class="bar"></div>
     <div class="fill"></div>

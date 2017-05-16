@@ -30,16 +30,20 @@ export class ResumeService {
   }
 
   /**
-   * Returns a skill object
-   * @param name
-   * @returns {Promise<Skill>}
+   *
    */
-  getSkillByName(name): Promise<Skill> {
-    let skill = SKILLS.filter(function(obj) {
-      return obj.name === name;
-    });
+  getSkillsSorted() {
+    return Promise.resolve(SKILLS.sort(this.sortSkillsByPercent));
+  }
 
-    return Promise.resolve(skill[0]);
+  private sortSkillsByPercent(a, b) {
+    if (a.percent < b.percent) {
+      return 1;
+    }
+    if (a.percent > b.percent) {
+      return -1;
+    }
+    return 0;
   }
 
   /**

@@ -26,7 +26,7 @@ export class SkillsComponent implements OnInit {
   constructor(private resumeService: ResumeService) { }
 
   getSkills(): void {
-    this.resumeService.getSkills().then((skills) => {
+    this.resumeService.getSkillsSorted().then((skills) => {
       this.skills = skills;
     });
   }

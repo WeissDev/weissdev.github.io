@@ -84,5 +84,11 @@ export const SKILLS: Skill[] = [
     imgPath: '/assets/images/icons/backbone-icon.svg',
     category: 'js',
     percent: 60
+  },
+  {
+    name: 'Git',
+    imgPath: '/assets/images/icons/git.svg',
+    category: 'other',
+    percent: 70
   }
 ];
