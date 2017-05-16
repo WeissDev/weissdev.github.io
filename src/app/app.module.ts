@@ -14,6 +14,7 @@ import { EducationComponent } from './education/education.component';
 
 import {ResumeService} from "./services/resume.service";
 import { SkillsComponent } from './skills/skills.component';
+import { GhCalendarComponent } from './gh-calendar/gh-calendar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SkillsComponent } from './skills/skills.component';
     SkillComponent,
     ProjectComponent,
     EducationComponent,
-    SkillsComponent
+    SkillsComponent,
+    GhCalendarComponent
   ],
   imports: [
     BrowserModule,

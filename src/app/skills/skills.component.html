@@ -3,6 +3,6 @@
   <h2 class="text-center">Skills at a glance</h2>
 
   <div id="skills" class="center">
-      <head-skill *ngFor="let skill of skills" [skill]="skill"></head-skill>
+      <app-skill *ngFor="let skill of skills" [skill]="skill" [@showPercentAnimation]="skill"></app-skill>
   </div>
 </div>
