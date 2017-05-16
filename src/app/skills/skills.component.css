@@ -1,6 +1,5 @@
 #skill-wrapper {
-  margin-top: 30px;
-  max-width: 800px;
+  max-width: 300px;
 }
 
 #skill-wrapper h2 {
@@ -8,6 +7,5 @@
 }
 
 #skills {
-  max-width: 620px;
-  height: 200px;
+  width: 240px;
 }

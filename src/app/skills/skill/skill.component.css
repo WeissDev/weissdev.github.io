@@ -1,5 +1,11 @@
-.c100  {
+:host {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
 
+.c100  {
+  display: block;
 }
 
 .c100 img {
