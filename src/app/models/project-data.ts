@@ -5,7 +5,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'Adaptation of Board Game Imhotep',
     year: '2017',
-    description: 'As part of the Software Engineering Lab at UZH. We had to adapt the board game Imhotep to make it playable online in the browser as a multiplayer game! You need to be at least 2 players to play it.',
+    description: 'As part of the Software Engineering Lab at University of Zurich. We had to adapt the board game Imhotep to make it playable online in the browser as a multiplayer game! You need to be at least 2 players to play it. Note: It may take a while to "wake up" the server when logging in, since it goes to sleep after a certain period of inactivity',
     images: ['/assets/images/projects/imhotep-login.png', '/assets/images/projects/imhotep-playingfield.png'],
     technologiesUsed: [SKILLS[0], SKILLS[12]],
     url: 'https://imhotep-c97e9.firebaseapp.com',

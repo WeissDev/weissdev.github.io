@@ -29,9 +29,6 @@ export class ResumeService {
     return Promise.resolve(SKILLS);
   }
 
-  /**
-   *
-   */
   getSkillsSorted() {
     return Promise.resolve(SKILLS.sort(this.sortSkillsByPercent));
   }
