@@ -1,0 +1,46 @@
+baseURL = "https://weissdev.github.io"
+languageCode = "en-us"
+title = "Valentin Weiss"
+theme = "researcher"
+enableEmoji = true
+math = false
+
+
+[params]
+  author = "Valentin Weiss"
+  description = "CS Student"
+  [params.footer]
+    text = "by Valentin Weiss"
+    url = "https://weissdev.github.io"
+  [[params.socialIcons]]
+    icon = "fab fa-github"
+    title = "GitHub"
+    url = "https://github.com/weissdev"
+  [[params.socialIcons]]
+    icon = "fab fa-linkedin"
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/valentin-weiss-a53843224/"
+  [[params.socialIcons]]
+    icon = "fas fa-envelope"
+    title = "E-mail"
+    url = "mailto:valentin.weiss@hotmail.com"
+
+[permalinks]
+  "/" = "/:filename"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects"
+    weight = 3
+
+[markup.goldmark.renderer]
+  unsafe = true
