@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Valentin Weiss</title>
+    <link>https://weissdev.github.io/</link>
+    <description>Recent content on Valentin Weiss</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://weissdev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>https://weissdev.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weissdev.github.io/projects/</guid>
+      <description>A selection projects I am (/have been) involved with:
+  Human Pose Estimation 2021
+In the context of the Machine Perception course at ETH, we looked at several state-of-the-art neural network architectures for Human Pose Estimation from RGB images and built and trained our own architecture using Pytorch. Learn more here.      Road Segmentation 2021
+In the Computational Intelligence Lab at ETH, we worked on the task of detecting roads from aerial images inventing our own neural network architecture to tackle this task.</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://weissdev.github.io/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://weissdev.github.io/resume/</guid>
+      <description>Education Msc. in Computer Science, ETH Zurich 2019-present
+Visual Computing Focus Track
+Bsc. in Informatics, University of Zurich 2015-2018
+Major: Software Systems
+Minor: Computational Linguistics
+High School, Kantonsschule Zurich Nord 2009-2013
+ Work Experience Software Developer, Groupconsulter AG 2016-2021
+ developed a new version of an application used for live voting at events such as general assemblies mostly using Python and Postgres. maintained and improved existing software (mostly using PHP, and a bit of C#)  Code Reviewer, Udacity Inc.</description>
+    </item>
+    
+  </channel>
+</rss>
