@@ -4,6 +4,7 @@ title = "Valentin Weiss"
 theme = "researcher"
 enableEmoji = true
 math = false
+publishdir = "docs"
 
 
 [params]

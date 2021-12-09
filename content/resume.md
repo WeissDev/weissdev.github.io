@@ -30,6 +30,14 @@ title = "Resume"
 ## Work Experience
 
 
+##### Co-Founder, Kollabro
+
+  *2020-present*
+
+  * Co-Founded a cloud platform with strong emphasis on data privacy
+  * Part-time involvement in software development
+
+
 ##### Software Developer, Groupconsulter AG
 
   *2016-2021*
