@@ -30,7 +30,7 @@ title = "Resume"
 ## Work Experience
 
 
-##### Co-Founder, Kollabro
+##### Co-Founder, [IntraHub](https://intrahub.ch)
 
   *2020-present*
 
