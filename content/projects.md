@@ -26,10 +26,10 @@ A selection projects I am (/have been) involved with:
 
 <hr>
 
-* **Kollabro** *2021-present*
+* **IntraHub** *2021-present*
 
 A swiss zero-knowledge policy cloud collaboration platform with file storage
-(video-) chats, timetracking and kanban board. Learn more [here](https://kollabro.ch).
+(video-) chats, timetracking and kanban board. Learn more [here](https://intrahub.ch).
 
 <hr>
 
